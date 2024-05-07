@@ -126,7 +126,7 @@ func deviceSafeAreaInsets() -> UIEdgeInsets {
     
     return insets
 }
-
+//
 func getSpringAnimation() -> CAKeyframeAnimation {
     let animate = CAKeyframeAnimation(keyPath: "transform")
     animate.duration = ZLPhotoConfiguration.default().selectBtnAnimationDuration
