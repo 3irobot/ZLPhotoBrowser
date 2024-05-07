@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.requires_arc          = true
   s.frameworks            = 'UIKit','Photos','PhotosUI','AVFoundation','CoreMotion', 'Accelerate'
 
-  s.resources             = 'Sources/*.{png,bundle}'
+  s.resources             = 'Sources/*.{png,bundle,xcprivacy}'
 
   s.subspec "Core" do |sp|
     sp.source_files  = ["Sources/**/*.swift", "Sources/ZLPhotoBrowser.h"]
